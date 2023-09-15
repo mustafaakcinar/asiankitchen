@@ -91,8 +91,8 @@ const button1 = document.createElement("button")
 button1.classList.add("btn", "btn-success", "btn-item")
 button1.setAttribute("id", "All")
 button1.textContent = "All"
-const container1 = document.querySelector(".btn-container");
-container1.appendChild(button1);
+const btn1 = document.querySelector(".btn-container");
+btn1.appendChild(button1);
 
 
 // button for korea foods
@@ -100,8 +100,8 @@ const button2 = document.createElement("button")
 button2.classList.add("btn", "btn-success", "btn-item")
 button2.setAttribute("id", "korea")
 button2.textContent = "Korea"
-const container2 = document.querySelector(".btn-container");
-container2.appendChild(button2);
+const btn2 = document.querySelector(".btn-container");
+btn2.appendChild(button2);
 
 
 // button for japan food
@@ -109,8 +109,8 @@ const button3 = document.createElement("button")
 button3.classList.add("btn", "btn-success", "btn-item")
 button3.setAttribute("id", "japan")
 button3.textContent = "Japan"
-const container3 = document.querySelector(".btn-container");
-container3.appendChild(button3);
+const btn3 = document.querySelector(".btn-container");
+btn3.appendChild(button3);
 
 
 // button for china food
@@ -118,8 +118,8 @@ const button4 = document.createElement("button")
 button4.classList.add("btn", "btn-success", "btn-item")
 button4.setAttribute("id", "china")
 button4.textContent = "China"
-const container4 = document.querySelector(".btn-container");
-container4.appendChild(button4);
+const btn4 = document.querySelector(".btn-container");
+btn4.appendChild(button4);
 
 
 button1.addEventListener("click", allFood )
